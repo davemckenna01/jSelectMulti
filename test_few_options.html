@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>jSelectMulti Testing</title>
+
+<script type="text/javascript" src="jquery-1.5.min.js"></script>
+<script type="text/javascript" src="jquery.jselectmulti.js"></script>
+
+<script>
+$(function(){
+    var select_multiple_box = $("select[multiple='multiple'][name='ingredients']");
+    $(select_multiple_box).jSelectMulti({
+        'add_btn_text': 'Add to list, won\'t you?'
+    });
+});
+</script>
+
+</head>
+<body>
+
+
+
+<h2>Create a Dish</h2>
+<h4>Select ingredients</h4>
+
+
+<form action="" method="get">
+<select multiple="multiple" name="ingredients" id="id_ingredients">
+<option value="45">CHEESE FD,COLD PK,AMERICAN</option>
+<option value="135">CHEESE FD,PAST PROCESS,AMERICAN,W/DI NA PO4</option>
+<option value="46">CHEESE FD,PAST PROCESS,AMERICAN,WO/DI NA PO4</option>
+<option value="47">CHEESE FD,PAST PROCESS,SWISS</option>
+<option value="147">CHEESE FONDUE</option>
+<option value="7622">CHEESE FOOD,IMITATION</option>
+<option value="191">CHEESE PRODUCT,PAST PROCESS,AMERICAN,RED FAT,FORT W/ VIT D</option>
+<option value="7454">CHEESE PRODUCT,PAST PROCESS,CHEDDAR OR AMERICAN,RED FAT</option>
+<option value="6139">CHEESE PUFFS &amp; TWISTS,CORN BSD,BKD,LOFAT</option>
+<option value="148">CHEESE SAU,PREP FROM RECIPE</option>
+<option value="7536">CHEESE SPRD,CRM CHS BASE</option>
+<option value="136">CHEESE SPRD,PAST PROCESS,AMERICAN,W/DI NA PO4</option>
+<option value="48">CHEESE SPRD,PAST PROCESS,AMERICAN,WO/DI NA PO4</option>
+<option value="146">CHEESE SUB,MOZZARELLA</option>
+<option value="7537">CHEESE,AMERICAN CHEDDAR,IMITN</option>
+<option value="4">CHEESE,BLUE</option>
+<option value="5">CHEESE,BRICK</option>
+<option value="6">CHEESE,BRIE</option>
+<option value="7">CHEESE,CAMEMBERT</option>
+<option value="8">CHEESE,CARAWAY</option>
+<option value="9">CHEESE,CHEDDAR</option>
+<option value="10">CHEESE,CHESHIRE</option>
+<option value="11">CHEESE,COLBY</option>
+<option value="12">CHEESE,COTTAGE,CRMD,LRG OR SML CURD</option>
+<option value="13">CHEESE,COTTAGE,CRMD,W/FRUIT</option>
+<option value="16">CHEESE,COTTAGE,LOWFAT,1% MILKFAT</option>
+<option value="7448">CHEESE,COTTAGE,LOWFAT,1% MILKFAT,LACTOSE RED</option>
+<option value="7557">CHEESE,COTTAGE,LOWFAT,1% MILKFAT,NO NA</option>
+<option value="7576">CHEESE,COTTAGE,LOWFAT,1% MILKFAT,W/VEG</option>
+<option value="15">CHEESE,COTTAGE,LOWFAT,2% MILKFAT</option>
+<option value="14">CHEESE,COTTAGE,NONFAT,UNCRMD,DRY,LRG OR SML CURD</option>
+<option value="7533">CHEESE,COTTAGE,W/VEG</option>
+<option value="17">CHEESE,CREAM</option>
+<option value="165">CHEESE,CREAM,FAT FREE</option>
+<option value="7534">CHEESE,CREAM,LOW FAT</option>
+<option value="203">CHEESE,DRY WHITE,QUESO SECO</option>
+<option value="18">CHEESE,EDAM</option>
+<option value="19">CHEESE,FETA</option>
+<option value="20">CHEESE,FONTINA</option>
+<option value="204">CHEESE,FRSH,QUESO FRESCO</option>
+<option value="21">CHEESE,GJETOST</option>
+<option value="142">CHEESE,GOAT,HARD TYPE</option>
+<option value="143">CHEESE,GOAT,SEMISOFT TYPE</option>
+<option value="144">CHEESE,GOAT,SOFT TYPE</option>
+<option value="22">CHEESE,GOUDA</option>
+<option value="23">CHEESE,GRUYERE</option>
+<option value="24">CHEESE,LIMBURGER</option>
+<option value="152">CHEESE,LOFAT,CHEDDAR OR COLBY</option>
+<option value="153">CHEESE,LOW-SODIUM,CHEDDAR OR COLBY</option>
+<option value="186">CHEESE,MEXICAN,BLEND,RED FAT</option>
+<option value="149">CHEESE,MEXICAN,QUESO ANEJO</option>
+<option value="150">CHEESE,MEXICAN,QUESO ASADERO</option>
+<option value="151">CHEESE,MEXICAN,QUESO CHIHUAHUA</option>
+<option value="25">CHEESE,MONTEREY</option>
+<option value="7421">CHEESE,MONTEREY,LOW FAT</option>
+<option value="7617">CHEESE,MOZZARELLA,LO NA</option>
+<option value="7474">CHEESE,MOZZARELLA,NON-FAT</option>
+<option value="28">CHEESE,MOZZARELLA,PART SKIM MILK</option>
+<option value="29">CHEESE,MOZZARELLA,PART SKIM MILK,LO MOIST</option>
+<option value="26">CHEESE,MOZZARELLA,WHL MILK</option>
+<option value="27">CHEESE,MOZZARELLA,WHL MILK,LO MOIST</option>
+<option value="30">CHEESE,MUENSTER</option>
+<option value="7473">CHEESE,MUENSTER,LOW FAT</option>
+<option value="31">CHEESE,NEUFCHATEL</option>
+<option value="182">CHEESE,PARMESAN,DRY GRATED,RED FAT</option>
+<option value="32">CHEESE,PARMESAN,GRATED</option>
+<option value="33">CHEESE,PARMESAN,HARD</option>
+<option value="7552">CHEESE,PARMESAN,LO NA</option>
+<option value="132">CHEESE,PARMESAN,SHREDDED</option>
+<option value="7535">CHEESE,PAST PROCESS,AMERICAN,LOFAT</option>
+<option value="42">CHEESE,PAST PROCESS,AMERICAN,W/DI NA PO4</option>
+<option value="133">CHEESE,PAST PROCESS,AMERICAN,WO/DI NA PO4</option>
+<option value="7444">CHEESE,PAST PROCESS,CHEDDAR OR AMERICAN,FAT-FREE</option>
+<option value="7577">CHEESE,PAST PROCESS,CHEDDAR OR AMERICAN,LO NA</option>
+<option value="43">CHEESE,PAST PROCESS,PIMENTO</option>
+<option value="7567">CHEESE,PAST PROCESS,SWISS,LOFAT</option>
+<option value="44">CHEESE,PAST PROCESS,SWISS,W/DI NA PO4</option>
+<option value="134">CHEESE,PAST PROCESS,SWISS,WO/DI NA PO4</option>
+<option value="34">CHEESE,PORT DE SALUT</option>
+<option value="35">CHEESE,PROVOLONE</option>
+</select>
+
+
+</form>
+
+
+</body>
+</html>
